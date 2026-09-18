@@ -1,0 +1,23 @@
+Part 1 summary
+===============
+Total raw matches: 889
+RANSAC inliers: 719
+
+Estimated fundamental matrix F:
+[[-0.       0.      -0.     ]
+ [-0.       0.       0.70711]
+ [ 0.      -0.70711  0.     ]]
+
+Left epipole (homogeneous, normalized):
+[9.62187e+15 1.10397e+02 1.00000e+00]
+
+Right epipole (homogeneous, normalized):
+[1.10489e+16 1.10411e+02 1.00000e+00]
+
+Stereo comparison:
+- SGBM: semi-global method with smoothness constraints, expected to produce cleaner disparity.
+- NCC: local correlation-based method, expected to be noisier and less stable in weakly textured regions.
+
+Note:
+This gives the relative epipolar geometry between the views.
+A metric rotation/translation pair would require camera intrinsics (calibration).
