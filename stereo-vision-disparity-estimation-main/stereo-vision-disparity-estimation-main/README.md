@@ -151,4 +151,4 @@ Generated outputs are saved under:
 - add quantitative disparity evaluation on a benchmark dataset
 
 ## Author
-Amogh Patel
+Aayush kumar
